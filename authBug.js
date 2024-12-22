@@ -1,0 +1,1 @@
+The Firebase SDK's `onAuthStateChanged` listener might not trigger immediately after a successful authentication.  This can lead to a race condition where UI elements that depend on the authentication state are updated before the authentication state is actually reflected in the listener.
